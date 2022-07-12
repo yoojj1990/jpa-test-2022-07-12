@@ -21,6 +21,12 @@ public class MemberDto {
 	
 	String name;
 	
+	
+	public MemberDto() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	@Builder
 	public MemberDto(Long num, String id, String name) {
 		super();
